@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="circles.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="item">
+            <h3 class="name">Name</h3>
+            <div class="logo-container">
+                <img src="/Assets/SAO_Man.png" alt="Person" class="logo" />
+                <img src="/Assets/SAO_Man.png" alt="Person Hover" class="logo-hover" />
+                <div class="circle-options">
+                    <div class="circle-items"></div>
+                </div>
+            </div>
+        </div>
+        <div class="description-container" style="background: #d6d6d6ff;">
+            <div class="icon-container">
+                <img id="icon" src="" alt="Icon" class="icon" />
+                <div id="selected-title"></div>
+            </div>
+            <div id="selected-description" style="margin-left: 60px;"></div>
+        </div>
+    </div>
+
+    <audio id="hover-sound" src="/Assets/SAO_Menu_SFX.mp3"></audio>
+
+    <script src="circles.js"></script>
+
+</body>
+</html>
