@@ -80,7 +80,7 @@ const circleContent = [
 ];
 
 const totalCircles = 12;
-const radius = 100;
+const radius = 130;
 const angleIncrement = (2 * Math.PI) / totalCircles;
 
 let selectedCircleId = 1;  // default selected circle ID
