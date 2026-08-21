@@ -204,7 +204,7 @@ body {
 }
 .logo-container img{
     width: 90px;
-    height: 145px;
+    height: 205px;
 }
 
 .logo-hover {
@@ -212,6 +212,7 @@ body {
     transform: scaleY(-1);
     clip-path: polygon(0% 100%, 100% 100%, 100% 90%, 0% 90%);
     opacity: 0.3;
+    height: 62px !important;
 }
 
 .circle-options {
