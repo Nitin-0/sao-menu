@@ -1,17 +1,90 @@
 const circleContent = [
-    { id: 1, icon: 'TwoSwardsGray.png', iconActive: 'TwoSwards.png', title: 'Search', description: "Description 1" },
-    { id: 2, icon: 'TwoSwardsGray.png', iconActive: 'TwoSwards.png', title: 'Herb', description: "Description 2" },
-    { id: 3, icon: 'TrackingGray.png', iconActive: 'Tracking.png', title: 'Tracking', description: "Description 3" },
-    { id: 4, icon: 'PersecutionGray.png', iconActive: 'Persecution.png', title: 'Persecution', description: "Description 4" },
-    { id: 5, icon: 'SwardGray.png', iconActive: 'Sward.png', title: 'One-handed straight sword', description: "Description 5" },
-    { id: 6, icon: 'TwoSwardsGray.png', iconActive: 'TwoSwards.png', title: 'Two Swords (Unique Skill)', description: "A skill that allows you to attack with two swords at the same time\nBonus to attack speed: 1.80\nBonus to protection against weapons\nCooldown bonus" },
-    { id: 7, icon: 'ThrowingaswordGray.png', iconActive: 'Throwingasword.png', title: 'Throwing a sword', description: "Description 7" },
-    { id: 8, icon: 'ProtectionGray.png', iconActive: 'Protection.png', title: 'Protection', description: "Description 8" },
-    { id: 9, icon: 'MilitaryRecoveryGray.png', iconActive: 'MilitaryRecovery.png', title: 'Military recovery', description: "Description 9" },
-    { id: 10, icon: 'TwoSwardsGray.png', iconActive: 'Protection.png', title: 'Combat medicine', description: "Description 10" },
-    { id: 11, icon: 'TwoSwardsGray.png', iconActive: 'Protection.png', title: 'Night vision', description: "Description 11" },
-    { id: 12, icon: 'TwoSwardsGray.png', iconActive: 'Protection.png', title: 'Disguise', description: "Description 12" },
+  {
+    id: 1,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'TwoSwards.png',
+    title: 'Search',
+    description: 'Search for enemies, locations, items, or hidden clues in the surrounding area.'
+  },
+  {
+    id: 2,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'TwoSwards.png',
+    title: 'Herb',
+    description: 'Gather and use herbs to restore health or prepare useful remedies.'
+  },
+  {
+    id: 3,
+    icon: 'TrackingGray.png',
+    iconActive: 'Tracking.png',
+    title: 'Tracking',
+    description: 'Follow footprints and other signs to track enemies or discover hidden paths.'
+  },
+  {
+    id: 4,
+    icon: 'PersecutionGray.png',
+    iconActive: 'Persecution.png',
+    title: 'Persecution',
+    description: 'Pursue a target relentlessly, increasing your ability to locate and engage enemies.'
+  },
+  {
+    id: 5,
+    icon: 'SwardGray.png',
+    iconActive: 'Sward.png',
+    title: 'One-handed straight sword',
+    description: 'A balanced sword technique focused on quick and precise attacks with a single straight sword.'
+  },
+  {
+    id: 6,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'TwoSwards.png',
+    title: 'Two Swords (Unique Skill)',
+    description: 'A skill that allows you to attack with two swords at the same time.\nBonus to attack speed: 1.80\nBonus to protection against weapons\nCooldown bonus'
+  },
+  {
+    id: 7,
+    icon: 'ThrowingaswordGray.png',
+    iconActive: 'Throwingasword.png',
+    title: 'Throwing a sword',
+    description: 'Throw your sword at an enemy from a distance, dealing damage before retrieving or replacing your weapon.'
+  },
+  {
+    id: 8,
+    icon: 'ProtectionGray.png',
+    iconActive: 'Protection.png',
+    title: 'Protection',
+    description: 'Increase your defenses and reduce the damage received from enemy attacks.'
+  },
+  {
+    id: 9,
+    icon: 'MilitaryRecoveryGray.png',
+    iconActive: 'MilitaryRecovery.png',
+    title: 'Military recovery',
+    description: 'Recover health and stamina using trained battlefield recovery techniques.'
+  },
+  {
+    id: 10,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'Protection.png',
+    title: 'Combat medicine',
+    description: 'Use medical knowledge and supplies to treat injuries and recover during combat.'
+  },
+  {
+    id: 11,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'Protection.png',
+    title: 'Night vision',
+    description: 'Improve visibility in dark environments, allowing you to detect enemies and navigate more effectively at night.'
+  },
+  {
+    id: 12,
+    icon: 'TwoSwardsGray.png',
+    iconActive: 'Protection.png',
+    title: 'Disguise',
+    description: 'Conceal your identity and appearance to avoid detection and move through enemy territory unnoticed.'
+  }
 ];
+
 
 const totalCircles = 12;
 const radius = 135;
